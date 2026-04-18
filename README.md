@@ -4,8 +4,8 @@ A full-stack application that allows users to create forms, submit responses, an
 
 ## 🛠 Tech Stack
 
-- Frontend: React, TypeScript, RTK Query, React Router
-- Backend: Node.js, Express, GraphQL
+- Frontend: React, TypeScript, React Redux, RTK Query, React Router
+- Backend: Node.js, Apollo Server, GraphQL
 - Data storage: In-memory
 
 ## 📦 Project Structure
