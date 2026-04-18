@@ -16,24 +16,16 @@ server/ - GraphQL backend
 ## ⚙️ Setup & Run
 
 ### 1. Clone repository
-<<<<<<< HEAD
 
 ```Bash
 git clone https://github.com/wade1412/form-builder-app.git
-=======
-```Bash
-git clone https://github.com/wade1412/form-builder-app.git  
->>>>>>> aa8cbdd68a4d4a0d358266cd045058faab915d0c
 cd form-builder-app
 ```
 
 ### 2. Install dependencies
 
 ```Bash
-<<<<<<< HEAD
 npm install
-=======
->>>>>>> aa8cbdd68a4d4a0d358266cd045058faab915d0c
 cd client && npm install
 cd ../server && npm install
 cd ..
@@ -46,10 +38,7 @@ Start both frontend and backend with a single command:
 ```Bash
 npm run dev
 ```
-<<<<<<< HEAD
 
-=======
->>>>>>> aa8cbdd68a4d4a0d358266cd045058faab915d0c
 Frontend: http://localhost:5173
 Backend (GraphQL): http://localhost:4000/graphql
 
