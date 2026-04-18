@@ -10,7 +10,7 @@ function QuestionInput({
   handleMultipleChange,
 }: QuestionInputProps) {
   return (
-    <div className="flex gap-4 flex-col items-center justify-center p-4">
+    <div className="flex gap-4 flex-col  justify-center p-4">
       {type === QuestionEnum.TEXT && (
         <div className="flex gap-2 items-center">
           <label htmlFor={`answer-input-${id}`} className="font-semibold">
