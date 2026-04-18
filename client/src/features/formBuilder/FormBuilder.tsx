@@ -41,7 +41,7 @@ function FormBuilder() {
         q.text.trim() &&
         (q.type === "TEXT" ||
           q.type === "DATE" ||
-          (q.options && q.options.length > 0)),
+          (q.options && q.options.length > 2)),
     );
 
   if (isCreating) {

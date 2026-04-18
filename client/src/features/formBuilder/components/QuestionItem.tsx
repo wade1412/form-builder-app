@@ -105,7 +105,11 @@ function QuestionItem({
               <div>
                 <button
                   type="button"
-                  className="mx-auto rounded-xl bg-gray-500 px-4 py-2 text-lg text-white transition-all hover:-translate-y-1 hover:bg-gray-400"
+                  className={`px-4 py-2 transition mx-auto text-lg text-white rounded-lg ${
+                    !newOptionText.trim()
+                      ? "bg-gray-400 pointer-events-none"
+                      : "bg-blue-500 hover:bg-blue-600 hover:-translate-y-1 transition-all"
+                  }`}
                   onClick={() => {
                     if (!newOptionText.trim()) return;
                     onOptionAdd(id, newOptionText);
